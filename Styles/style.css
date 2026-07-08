@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #2d11ce;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 20px;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
