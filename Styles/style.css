@@ -89,13 +89,6 @@ nav ul li {
 .speakers-container {
   margin: 5.5rem 0;
 }
-.common-text {
-  /* border: 2px solid rebeccapurple; */
-  color: #0d1b2a;
-  text-align: center;
-  margin: 20px 0;
-  font-size: 3.5rem;
-}
 .speakers-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -129,6 +122,9 @@ nav ul li {
 /* speakers section ends here */
 
 /* spot section start here */
+.spots-containers{
+  margin-bottom: 100px;
+}
 .spots-containers > P {
   color: #575757;
   font-size: 18px;
@@ -138,18 +134,23 @@ nav ul li {
 .spot-container {
   /* border: 2px solid red; */
   display: flex;
-  justify-content: center;
+  /* flex-wrap: wrap; */
   gap: 30px;
-  padding: 26px;
+  padding:0 26px;
 }
 .spot-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   border: 1px solid #e5e7eb;
   padding: 30px;
   border-radius: 10px;
   width: 100%;
+  transition: 0.4s;
+
+}
+.spot-card:hover {
+  transform: translateY(-12px);
+  border-color: #4f46e5;
+
+  box-shadow: 0 0 30px rgba(79, 70, 229, 0.5);
 }
 .card-2 {
   border: 1px solid #e5e7eb;
@@ -222,14 +223,16 @@ hr {
 
 /* spot section ends here */
 
-/* footer container start here */
+/* _____________footer container start here_____________ */
 .footer-container {
   /* border: 2px solid red; */
   background-color: #0d1b2a;
   padding: 80px 0;
+  margin-top: 100px;
 }
 .footer-container hr {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 50px auto;
 }
 .footer-content {
@@ -243,6 +246,9 @@ hr {
 .footer-logo {
   display: flex;
 }
+.footer-logo img{
+  width: 100%;
+}
 .footer-logo h3 {
   margin-left: 12px;
   color: whitesmoke;
@@ -252,7 +258,7 @@ hr {
   display: flex;
 }
 .footer-icon i {
-  font-size: 30px;
+  font-size: 24px;
   cursor: pointer;
   transition: 0.3s;
 }
