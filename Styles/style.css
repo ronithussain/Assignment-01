@@ -4,13 +4,19 @@
   font-family: "Inter", sans-serif;
 }
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
-nav {
-  /* border: 2px solid red; */
+.navigation-container {
   position: sticky;
+  z-index: 100;
   top: 0;
+  background: rgba(187, 202, 231, 0.281);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(172, 167, 167, 0.08);
+}
+nav {
   padding: 18px 0;
   display: flex;
   justify-content: space-between;
@@ -22,7 +28,7 @@ nav ul li a {
   font-size: 18px;
 }
 nav ul li a:hover {
-  color: #2d11ce;
+  color: #2563eb;
 }
 nav ul {
   list-style: none;
@@ -38,10 +44,11 @@ nav ul li {
   border: none;
   padding: 15px 30px;
   border-radius: 6px;
+  cursor: pointer;
 }
 .common-btn:hover {
   background-color: #2563eb;
-  /* transform: translateY(-3px); */
+  transition: 0.3;
   box-shadow: 0 10px 20px rgba(29, 78, 216, 0.3);
 }
 
@@ -79,7 +86,7 @@ nav ul li {
 /* hero section ends here */
 
 /* speakers section start here */
-.speakers-container{
+.speakers-container {
   margin: 5.5rem 0;
 }
 .common-text {
@@ -128,68 +135,133 @@ nav ul li {
   /* line-height: 2.5rem; */
   text-align: center;
 }
-.spot-container{
+.spot-container {
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   gap: 30px;
   padding: 26px;
 }
-.spot-card{
+.spot-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   padding: 30px;
   border-radius: 10px;
   width: 100%;
 }
-.card-2{
-  border: 1px solid #E5E7EB;
-  background-color: #0D1B2A;
+.card-2 {
+  border: 1px solid #e5e7eb;
+  background-color: #0d1b2a;
 }
-hr{
+hr {
   margin: 1.5rem 0;
 }
-.spot-card p{
+.spot-card p {
   color: #888888;
   font-size: 14px;
   font-weight: 600;
 }
-.spot-card h4{
-  color: #0D1B2A;
+.spot-card h4 {
+  color: #0d1b2a;
   font-size: 44px;
   font-weight: bold;
 }
-.spot-card span{
+.spot-card span {
   color: #888888;
   font-size: 14px;
 }
-.spot-card ul{
-  margin-bottom:1.5rem;
+.spot-card ul {
+  margin-bottom: 1.5rem;
 }
-.spot-card ul li{
+.spot-card ul li {
   list-style-position: inside;
   color: #333333;
   font-size: 16px;
   line-height: 30px;
 }
-#pro-card li{
+#pro-card li {
   color: white;
 }
-.spot-card ul li::marker{
-  color:  #2563EB;
+.spot-card ul li::marker {
+  color: #2563eb;
   /* font-size: 20px; */
 }
-.spot-btn{
+.spot-btn {
   width: 100%;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid #2563EB;
-  color: #2563EB;
+  border: 1px solid #2563eb;
+  color: #2563eb;
   font-weight: 600;
   font-size: 16px;
   margin-top: auto;
+  cursor: pointer;
+}
+#spot-btn-2 {
+  background-color: #2563eb;
+  color: white;
+}
+#spot-btn-2:hover {
+  background-color: white;
+  color: #2563eb;
+}
+#spot-btn-3 {
+  border: 1px solid rgb(114, 109, 109);
+  color: rgb(56, 53, 53);
+}
+#spot-btn-3:hover {
+  color: whitesmoke;
+}
+.spot-btn:hover {
+  background-color: #2563eb;
+  transition: 0.3s;
+  color: white;
 }
 
 /* spot section ends here */
+
+/* footer container start here */
+.footer-container {
+  /* border: 2px solid red; */
+  background-color: #0d1b2a;
+  padding: 80px 0;
+}
+.footer-container hr {
+  width: 1200px;
+  margin: 50px auto;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content a {
+  text-decoration: none;
+}
+.footer-logo {
+  display: flex;
+}
+.footer-logo h3 {
+  margin-left: 12px;
+  color: whitesmoke;
+  font-size: 26px;
+}
+.footer-icon {
+  display: flex;
+}
+.footer-icon i {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-icon span {
+  font-size: 18px;
+  color: whitesmoke;
+}
+.footer-icon div {
+  margin-left: 40px;
+}
+
+/* footer container ends here */

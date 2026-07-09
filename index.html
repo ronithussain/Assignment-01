@@ -24,25 +24,27 @@
   <body>
     <header>
       <!-- navigation and hero section -->
-      <nav class="container">
-        <div>
-          <img src="./Styles/assets/logo.png" alt="" />
-        </div>
-        <div>
-          <ul>
-            <li><a href="speakers.html">speakers</a></li>
-            <li><a href="schedule.html">schedule</a></li>
-            <li><a href="tracks.html">Tracks</a></li>
-            <li><a href="venue.html">Venue</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </div>
-        <div>
-          <button class="common-btn">Register Now</button>
-        </div>
-      </nav>
+      <section class="navigation-container">
+        <nav class="container">
+          <div>
+            <img src="./Styles/assets/logo.png" alt="" />
+          </div>
+          <div>
+            <ul>
+              <li><a href="speakers.html">speakers</a></li>
+              <li><a href="schedule.html">schedule</a></li>
+              <li><a href="tracks.html">Tracks</a></li>
+              <li><a href="venue.html">Venue</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div>
+            <button class="common-btn">Register Now</button>
+          </div>
+        </nav>
+      </section>
       <!-- hero section -->
-      <section class="hero-container">
+      <section id="home" class="hero-container">
         <div class="hero-content">
           <h1 class="text-1">Code. <i>Connect.</i> Create</h1>
           <p>
@@ -131,12 +133,7 @@
               <li>Lifetime reconding access</li>
               <li>1-on-1 mentorship (30 min)</li>
             </ul>
-            <button
-              style="background-color: #2563eb; color: white"
-              class="spot-btn"
-            >
-              Get Pro
-            </button>
+            <button id="spot-btn-2" class="spot-btn">Get Pro</button>
           </div>
           <!-- card-3 -->
           <div class="spot-card">
@@ -152,29 +149,50 @@
               <li>Requirement both (1 day)</li>
               <li>Priority customer support</li>
             </ul>
-            <button
-              style="
-                border: 1px solid rgb(114, 109, 109);
-                color: rgb(56, 53, 53);
-              "
-              class="spot-btn"
-            >
-              Contacts Us
-            </button>
+            <button id="spot-btn-3" class="spot-btn">Contacts Us</button>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <img src="Styles/assets/logo-mini.png" alt="" />
-      </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+    <footer class="footer-container">
+      <section class="container footer-content">
+        <!-- footer-loto -->
+        <a class="footer-logo" href="#home">
+          <img src="Styles/assets/logo-mini.png" alt="" />
+          <h3>Dev<span style="color: red">C</span>onf 2026</h3>
+        </a>
+        <!-- footer-icon -->
+        <div class="footer-icon">
+          <div>
+            <a href="https://www.facebook.com/">
+              <i style="color: #2563eb" class="fa-brands fa-facebook"></i>
+            </a>
+            <span>Facebook</span>
+          </div>
+          <div>
+            <a href="https://github.com/">
+              <i style="color: whitesmoke" class="fa-brands fa-github"></i>
+            </a>
+            <span>Github</span>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/">
+              <i style="color: orange" class="fa-brands fa-instagram"></i>
+            </a>
+            <span>Instagram</span>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/">
+              <i style="color: whitesmoke" class="fa-brands fa-linkedin"></i>
+            </a>
+            <span>Employee</span>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <p style="text-align: center; color: whitesmoke">
+        2026 DevConf All rights reserved
+      </p>
     </footer>
   </body>
 </html>
