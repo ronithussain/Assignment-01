@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <!-- css style sheet link -->
     <link rel="stylesheet" href="./Styles/style.css" />
     <title>DevCons</title>
@@ -21,7 +26,7 @@
       <!-- navigation and hero section -->
       <nav class="container">
         <div>
-          <img src="assets/logo.png" alt="" />
+          <img src="./Styles/assets/logo.png" alt="" />
         </div>
         <div>
           <ul>
@@ -39,7 +44,7 @@
       <!-- hero section -->
       <section class="hero-container">
         <div class="hero-content">
-          <h1 class="text-1 ">Code. Connect. Create</h1>
+          <h1 class="text-1">Code. <i>Connect.</i> Create</h1>
           <p>
             Join 4,000+ engineers, founders, and builders at the premier
             developer conference of 2026. Three days of cutting-edge talks,
@@ -52,45 +57,124 @@
       </section>
     </header>
     <main class="container">
-        <!-- speakers section -->
-        <section class="speakers-container">
-            <h3 class="text-1">Meet the Speakers</h3>
-            <div class="speakers-cards">
-                <div class="speaker-card">
-                    <img src="./Styles/assets/andrej.png" alt="">
-                    <div class="card-content">
-                        <span>AI / ML</span>
-                        <h5>Andrej Karpathy</h5>
-                        <p>Pretraining team, Anthropic</p>
-                    </div>
-                </div>
-                <div class="speaker-card">
-                    <img src="./Styles/assets/demis.png" alt="">
-                    <div  class="card-content">
-                        <span>AI / ML</span>
-                        <h5>Andrej Karpathy</h5>
-                        <p>Pretraining team, Anthropic</p>
-                    </div>
-                </div>
-                <div class="speaker-card">
-                    <img src="./Styles/assets/gary.png" alt="">
-                    <div  class="card-content">
-                        <span>AI / ML</span>
-                        <h5>Andrej Karpathy</h5>
-                        <p>Pretraining team, Anthropic</p>
-                    </div>
-                </div>
-                <div class="speaker-card" >
-                    <img src="./Styles/assets/mustafa.png" alt="">
-                    <div class="card-content">
-                        <span>AI / ML</span>
-                        <h5>Andrej Karpathy</h5>
-                        <p>Pretraining team, Anthropic</p>
-                    </div>
-                </div>
+      <!-- speakers section -->
+      <section class="speakers-container">
+        <h3 class="text-1 common-text">Meet the Speakers</h3>
+        <div class="speakers-cards">
+          <div class="speaker-card">
+            <img src="./Styles/assets/andrej.png" alt="" />
+            <div class="card-content">
+              <span>AI / ML</span>
+              <h4>Andrej Karpathy</h4>
+              <p>Pretraining team, Anthropic</p>
             </div>
-        </section>
+          </div>
+          <div class="speaker-card">
+            <img src="./Styles/assets/demis.png" alt="" />
+            <div class="card-content">
+              <span>Cloud & DevOps</span>
+              <h4>Dem is Hassabis</h4>
+              <p>Co-Founder and CEO, Google DeepMind</p>
+            </div>
+          </div>
+          <div class="speaker-card">
+            <img src="./Styles/assets/gary.png" alt="" />
+            <div class="card-content">
+              <span>Frontend</span>
+              <h4>Gary Marcus</h4>
+              <p>Staff Engineer, Vercel</p>
+            </div>
+          </div>
+          <div class="speaker-card">
+            <img src="./Styles/assets/mustafa.png" alt="" />
+            <div class="card-content">
+              <span>Security</span>
+              <h4>Mustafa Suleyman</h4>
+              <p>CEO of Microsoft AI</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- spot section -->
+      <section class="spots-containers">
+        <h3 class="text-1 common-text">Secure Your Spot</h3>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+        <div class="spot-container">
+          <!-- card-1 -->
+          <div class="spot-card">
+            <p>STANDARD</p>
+            <h4>$300</h4>
+            <span>per person</span>
+            <hr />
+            <ul>
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop session</li>
+              <li>Networking lunch and coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
+            <button class="spot-btn">Get Standard</button>
+          </div>
+          <!-- card-2 -->
+          <div class="spot-card card-2">
+            <p style="color: #93c5fd">PRO</p>
+            <h4 style="color: white">$789</h4>
+            <span style="color: white">per person</span>
+            <hr />
+            <ul id="pro-card">
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet and greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime reconding access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <button
+              style="background-color: #2563eb; color: white"
+              class="spot-btn"
+            >
+              Get Pro
+            </button>
+          </div>
+          <!-- card-3 -->
+          <div class="spot-card">
+            <p>TEAM</p>
+            <h4>$5,999</h4>
+            <span>up to 10 people</span>
+            <hr />
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>company logo or event page</li>
+              <li>Requirement both (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <button
+              style="
+                border: 1px solid rgb(114, 109, 109);
+                color: rgb(56, 53, 53);
+              "
+              class="spot-btn"
+            >
+              Contacts Us
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div>
+        <img src="Styles/assets/logo-mini.png" alt="" />
+      </div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -47,10 +47,9 @@ nav ul li {
 
 /* hero section start here */
 .hero-container {
-  background-image:linear-gradient(
-        rgba(39, 36, 36, 0.5),
-        rgba(5, 4, 4, 0.5)
-    ), url("./assets/banner.jpg");
+  background-image:
+    linear-gradient(rgba(39, 36, 36, 0.5), rgba(5, 4, 4, 0.5)),
+    url("./assets/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -64,10 +63,10 @@ nav ul li {
   /* border: 5px solid rebeccapurple; */
   text-align: center;
 }
-.hero-content p{
-    margin-top: 24px;
-    font-size: 18px;
-    color: white;
+.hero-content p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: white;
 }
 .text-1 {
   color: white;
@@ -80,26 +79,117 @@ nav ul li {
 /* hero section ends here */
 
 /* speakers section start here */
-.speakers-container h3 {
-    /* border: 2px solid rebeccapurple; */
-    color: black;
-    text-align: center;
-    margin: 20px 0;
+.speakers-container{
+  margin: 5.5rem 0;
 }
-.speakers-cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.common-text {
+  /* border: 2px solid rebeccapurple; */
+  color: #0d1b2a;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 3.5rem;
 }
-.speakers-cards img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+.speakers-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-.speaker-card{
-    border: 1px solid rgb(235, 230, 230);
-    border-radius: 10px;
+.speakers-cards img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
-.card-content{
-    padding: 12px 20px;
+.speaker-card {
+  border: 1px solid rgb(235, 230, 230);
+  border-radius: 10px;
+}
+.card-content {
+  padding: 12px 20px;
+}
+.card-content span {
+  color: #2563eb;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+.card-content h4 {
+  color: #0d1b2a;
+  font-size: 26px;
+}
+.card-content p {
+  color: #575757;
+  font-size: 18px;
+  line-height: 2.5rem;
 }
 /* speakers section ends here */
+
+/* spot section start here */
+.spots-containers > P {
+  color: #575757;
+  font-size: 18px;
+  /* line-height: 2.5rem; */
+  text-align: center;
+}
+.spot-container{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 26px;
+}
+.spot-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #E5E7EB;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+}
+.card-2{
+  border: 1px solid #E5E7EB;
+  background-color: #0D1B2A;
+}
+hr{
+  margin: 1.5rem 0;
+}
+.spot-card p{
+  color: #888888;
+  font-size: 14px;
+  font-weight: 600;
+}
+.spot-card h4{
+  color: #0D1B2A;
+  font-size: 44px;
+  font-weight: bold;
+}
+.spot-card span{
+  color: #888888;
+  font-size: 14px;
+}
+.spot-card ul{
+  margin-bottom:1.5rem;
+}
+.spot-card ul li{
+  list-style-position: inside;
+  color: #333333;
+  font-size: 16px;
+  line-height: 30px;
+}
+#pro-card li{
+  color: white;
+}
+.spot-card ul li::marker{
+  color:  #2563EB;
+  /* font-size: 20px; */
+}
+.spot-btn{
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #2563EB;
+  color: #2563EB;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: auto;
+}
+
+/* spot section ends here */
