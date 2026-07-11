@@ -1,1 +1,17 @@
-Create a modern "Developer Roadmap" section for a Developer Conference website named "DEVCONF 2026". Requirements: - Use only HTML5 and CSS3. - No JavaScript. - Dark modern theme with blue and purple accent colors. - Section title: "Your Dev Journey at DevConf 2026". - Subtitle describing the attendee journey. - Display 8 roadmap cards connected with arrows or a timeline. - Steps: 1. Register 2. Get Your Badge 3. Attend Keynotes 4. Join Workshops 5. Network with Experts 6. Hackathon Challenge 7. Career Fair 8. Earn Certificate - Each card should contain an icon, title, and short description. - Add smooth hover effects using CSS transitions. - Write clean, semantic HTML and organized CSS with comments.
+think your are my web developer instructor.
+now i am a bigeneer. now i built a project about developer conference. 
+
+create a modern "Developer Roadmap" section for a Developer Conference website named "DEVCONF 2026". 
+
+Requirements: - Use only HTML5 and CSS3. - No JavaScript. - Dark modern theme with blue and purple accent colors. 
+
+- Section title: "Your Dev Journey at DevConf 2026". - Subtitle describing the attendee journey. - Display 8 roadmap cards connected with arrows or a timeline. - 
+Steps: 1. Register 
+2. Get Your Badge 
+3. Attend Keynotes 
+4. Join Workshops 
+5. Network with Experts 
+6. Hackathon Challenge 
+7. Career Fair 
+8. Earn Certificate - Each card should contain an icon, title, and short description. - 
+Add smooth hover effects using CSS transitions. - Write clean, semantic HTML and organized CSS with comments. how do i will built the section give me the html and css code and  explain in bangla and english

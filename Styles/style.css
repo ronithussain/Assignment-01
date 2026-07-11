@@ -246,9 +246,6 @@ hr {
 .footer-logo {
   display: flex;
 }
-.footer-logo img{
-  width: 100%;
-}
 .footer-logo h3 {
   margin-left: 12px;
   color: whitesmoke;
